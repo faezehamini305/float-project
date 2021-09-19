@@ -1,0 +1,409 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.primary-color {
+    color: dodgerblue;
+}
+
+.first-link {
+    color: dodgerblue !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.container {
+    width: 60%;
+    clear: both;
+    display: table;
+    /* background-color: blue; */
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    background-color: #333;
+}
+
+.header-logo {
+    padding: 12px 12px;
+    float: left;
+}
+
+.header-logo a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-menu li {
+    float: right;
+}
+
+.header-menu li a {
+    padding: 12px 12px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.header-menu li a:hover {
+    color: dodgerblue;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* main */
+
+
+/* hero */
+
+.main {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    /* height: 400px; */
+    background: linear-gradient(rgba(51, 40, 40, 0.781), rgba(51, 40, 40, 0.781)), url('../first-template/image/hero.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.hero-main {
+    color: #ffffff;
+    text-align: center;
+    padding: 250px 0;
+}
+
+.hero-main h2 {
+    text-transform: uppercase;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+.hero-main p {
+    margin: 25px 0px;
+}
+
+.hero-main a {
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+
+/* history */
+
+.history {
+    width: 100%;
+    float: left;
+}
+
+.history-left {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background: url('../first-template/image/history.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.history-right {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: #333;
+    /* background: url('../first-template/image/laptop.jfif') no-repeat center; */
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.history-right p {
+    margin: 25px 10px;
+}
+
+.history-right a {
+    color: #333;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+
+/* boxes */
+
+.boxes {
+    width: 100%;
+}
+
+.box {
+    width: 33.333%;
+    /* height: 150px; */
+    padding: 80px 20px;
+    /* background-color: orange; */
+    float: left;
+    text-align: center;
+}
+
+.game-name {
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.box-2 {
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+
+.box i {
+    display: block;
+    font-size: 30px;
+}
+
+
+/* contact-us */
+
+.contact-us {
+    width: 100%;
+    min-height: 150px;
+    /* background-color: lightblue; */
+    /* padding: 20px 0px; */
+}
+
+.middle-form {
+    padding: 20px 0px;
+}
+
+.contact-us h1 {
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-top: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+    caret-color: red;
+    color: #333333;
+}
+
+.form-group textarea {
+    /* width: 100%; */
+    height: 200px;
+    padding: 10px;
+    resize: none;
+}
+
+.form-group input::placeholder {
+    color: dodgerblue;
+}
+
+.form-group input:focus {
+    outline: 1px solid dodgerblue
+}
+
+.form-group .submit {
+    width: auto !important;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    font-size: 17px;
+    height: auto;
+    cursor: pointer;
+}
+
+.form-group .submit:hover {
+    color: dodgerblue;
+}
+
+.find-us {
+    background-color: #333 !important;
+    width: 100%;
+    color: #ffffff;
+    float: left;
+    border-bottom: 1px solid #ffffff21;
+}
+
+.find-us .boxes .box-2 {
+    background-color: #333;
+}
+
+.about-us {
+    width: 100%;
+    min-height: 150px;
+    background-color: #f1f1f1;
+}
+
+.about-us-sections {
+    padding: 20px 0px;
+    float: left;
+}
+
+.about-us-sections-left {
+    width: 50%;
+    float: left;
+}
+
+.about-us-sections-right {
+    width: 50%;
+    float: left;
+}
+
+.about-us-sections-right img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.about-us-sections-left p {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.find-us-about {
+    background: url('../first-template/image/our-gamers.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    /* height: 150px; */
+}
+
+.find-us-container {
+    padding: 60px 0px;
+    float: left;
+}
+
+.find-us-about h1 {
+    text-align: center;
+    color: white;
+    /* float: left; */
+    /* padding-top: 40px; */
+}
+
+.find-us-box {
+    background-color: rgba(30, 143, 255, 0.712);
+    margin-top: 20px;
+    float: left;
+}
+
+.find-us-box img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    float: left;
+}
+
+.find-us-box p {
+    padding-left: 10px;
+    float: left;
+    color: #fff;
+    width: calc(100% - 100px);
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #333;
+    padding: 30px 10px;
+    float: left;
+}
+@media(max-width:767px){
+    .header-logo{
+        text-align: center;
+        width: 100%;
+    }
+    .header-menu li{
+        width: 100%;
+        text-align: center;
+    }
+    .history-left , .history-right{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .contact-us .middle-form .container{
+        width: 100%;
+        /* padding: 0; */
+    }
+    .find-us .container{
+        width: 100%;
+        padding: 0;
+    }
+    .boxes .box{
+        padding: 20px;
+    }
+    .boxes .box:not(:last-child){
+        border-bottom: 1px solid dodgerblue;
+    }
+    .find-us-about .container{
+        width: 88%;
+    }
+    .find-us-box p{
+        width: 100%;
+    }
+    .find-us-box img{
+        margin-left: 106px;
+    }
+}
+@media(max-width:1023px){
+    .about-us .container{
+        width: 100%;
+    }
+    .about-us-sections-left{
+        width: 100%;
+        text-align: center;
+    }
+    .about-us-sections-right{
+        width: 100%;
+        text-align: center;
+    }
+    .about-us-sections-right img{
+        width: 35%;
+    }
+}
+@media(max-width:1024px){
+ 
+}
